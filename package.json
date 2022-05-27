@@ -1,0 +1,24 @@
+{
+  "name": "botdiscord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "alphabot.js",
+  "scripts": {
+    "start": "node alphabot.js", 
+    "devStart": "nodemon alphabot.js"
+  },
+  "keywords": [
+    "discord",
+    "atari",
+    "bot"
+  ],
+  "author": "Atari",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
