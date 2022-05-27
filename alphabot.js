@@ -13,12 +13,12 @@ client.on("ready", function (e) {
 client.on("message", function (msg) {
   let mesg = msg.content.toLowerCase();
   if (
-    msg.content === "help" ||
-    msg.content === "support" ||
-    msg.content === "ticket" ||
-    msg.content === "i want support"  ||
-    msg.content === "need support"  
+    mesg === "help" ||
+    mesg === "support" ||
+    mesg === "ticket" ||
+    mesg === "i want support"  ||
+    mesg === "need support"  
   ) {
-    msg.reply("Hi, there!. \n Thank you for reaching us. Please open a new ticket on https://app.customersupportnetworks.com/ \n Atari Support");
+    msg.reply("Hi, there!. \n\n Thank you for reaching us. Please open a new ticket on https://app.customersupportnetworks.com/ \n\n Atari Support");
   }
 });
