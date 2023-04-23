@@ -19,6 +19,6 @@ client.on("message", function (msg) {
     mesg === "i want support"  ||
     mesg === "need support"  
   ) {
-    msg.reply("Hi, there!. \n\n Thank you for reaching us. Please open a new ticket on https://app.customersupportnetworks.com/ \n\n Atari Support");
+    msg.reply("Hi, there!. \n\n Thank you for reaching us. Please open a new ticket on https://app.customersupportnetworks.com/ or send us an email to support@atari.com \n\n Atari Support");
   }
 });
